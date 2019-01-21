@@ -6,3 +6,12 @@ categories: jekyll update
 ---
 
 Spark Intro
+
+ Apache Spark Overview
+Spark is an open source cluster computing big data processing platform.  It uses in-memory computing and is fast and generic engine for large scale data computations.  It is an end to end platform for data ingest, data transformation and store and data analytics. It can be run as a single box or a multi-node cluster system (Largest Spark cluster is known to be of 8000 node. https://spark.apache.org/faq.html). It supports streaming as well as  fast batch processing of the data. It has built modules for streaming, SQL, Machine learning and Graph processing. Support Scala, Java, Python and R programming languages. 
+As a platform, Spark support the following: 
+- Libraries: Spark SQL, ML  lib (ML,  pipelining), GraphX (graph analysis), streaming (analyse real time data and do ML or prediction) 
+- Spark Core (An engine for data processing)
+- Management systems: YARN, Mesos and Spark Scheduler (in built)
+- Storage: Local, HDFS, S3, NoSQL (MongoDB, HBASE,  Cassandra) 
+- Next steps: Tutorial on the ML and the overview of the Spark ML using Python
